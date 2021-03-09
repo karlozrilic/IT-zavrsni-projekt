@@ -1,0 +1,24 @@
+{
+    "links": [
+        {
+            "text": "Visa informations",
+            "path": "/visa-informations"
+        },
+        {
+            "text": "Familly",
+            "path": "/familly"
+        },
+        {
+            "text": "Where to live?",
+            "path": "/where-to-live"
+        },
+        {
+            "text": "Useful contatcs",
+            "path": "/useful-contacts"
+        },
+        {
+            "text": "Meet the city and its surroundings",
+            "path": "/meet-the-city"
+        }
+    ]
+}
