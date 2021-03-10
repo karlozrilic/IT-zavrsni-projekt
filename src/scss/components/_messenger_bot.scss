@@ -3,44 +3,142 @@
     bottom: 20px;
     right: 20px;
     text-align: right;
+    &.close {
+        .messenger-chat {
+            width: 0;
+        }
+    }
     .messenger-icon {
         cursor: pointer;
         .fa-facebook-messenger {
             color: white;
         }
     }
+    div {
+        position: relative !important;
+    }
     .messenger-chat {
         position: relative;
         background-color: white;
         width: 300px;
-        height: 500px;
-        margin-bottom: 30px;
-        &::after {
-            content: "";
-            position: absolute;
-            bottom: -30px;
-            right: 10px;
-            width: 0;
-            height: 0;
-            border-color: white transparent transparent transparent;
-            border-width: 15px;
-            border-style: solid;
-            border-radius: 0 0 50px 50px;
+        max-height: 500px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        box-shadow: 0 12px 28px 0 $shadow-2, 0 2px 4px 0 $shadow-2;
+        display: flex;
+        flex-direction: column;
+        transform-origin: bottom right;
+        &.open {
+            transition: transform 238ms cubic-bezier(0.18, 0.89, 0.32, 1.28) 119ms, width 0ms, opacity 100ms;
+            transform: scale(1, 1);
+            opacity: 1;
+        }
+        &.close {
+            transition: transform 238ms cubic-bezier(0.18, 0.89, 0.32, 1) 119ms, width 0ms 360ms, opacity 100ms 120ms;
+            transform: scale(0, 0);
+            opacity: 0;
+        }
+        .messenger-header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            box-shadow: 0 1px 2px $shadow-1, 0 -1px $media-inner-border inset;
+            h5 {
+                margin: 0;
+                padding: 0 10px;
+            }
+            .messenger-header-buttons {
+                display: flex;
+                flex-direction: row;
+                .messenger-header-dropdown {
+                    position: absolute !important;
+                    bottom: 0;
+                    z-index: 1;
+                }
+                button {
+                    height: 100%;
+                    width: auto;
+                    border: none;
+                    border-radius: 50%;
+                    background-color: transparent;
+                    margin: 5px;
+                    padding: 0 4px;
+                    font-size: 20px;
+                    color: $closeButtonColor;
+                    &:hover {
+                        background-color: #f2f2f2;
+                    }
+                }
+            }
+        }
+        .chat {
+            padding: 5px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-height: 420px;
+            overflow: auto;
+            .user {
+                align-self: flex-end;
+                background-color: $userChatColor;
+                color: white;
+                width: fit-content;
+                margin: 1px;
+                padding: 4px 6px;
+                border-radius: 10px 5px 5px 10px;
+                &.first {
+                    border-radius: 10px 5px 5px 5px;
+                }
+                &.between {
+                    border-radius: 5px;
+                }
+                &.last {
+                    border-radius: 5px 5px 5px 10px;
+                }
+            }
+            .bot {
+                align-self: flex-start;
+                background-color: $botChatColorLight;
+                margin: 1px;
+                padding: 4px 6px;
+                border-radius: 5px 10px 10px 5px;
+                &.first {
+                    border-radius: 5px 10px 5px 5px;
+                }
+                &.between {
+                    border-radius: 5px;
+                }
+                &.last {
+                    border-radius: 5px 5px 10px 5px;
+                }
+            }
         }
         .messenger-form {
-            position: absolute;
-            bottom: 0;
-            right: 0;
             display: flex;
             flex-direction: row;
             width: 100%;
+            height: fit-content;
+            max-height: 145px;
+            padding: 5px 8px 8px 8px;
+            border-top: 1px solid #dddddd;
             input {
                 width: 100%;
                 margin-right: 10px;
+                border: none;
+            }
+            textarea {
+                width: 100%;
+                margin-right: 10px;
+                border: none;
+                resize: none;
+                max-height: 125px;
             }
             button {
-                border: 1px solid black;
+                border: none;
                 background-color: transparent;
+                color: $iconColorLight;
             }
         }
     }
