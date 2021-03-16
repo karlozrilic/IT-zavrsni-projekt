@@ -67,7 +67,7 @@ function MessegerBot() {
                 <div className={openChat ? "messenger-chat open" : "messenger-chat close"}>
                     <div className="messenger-header">
                         <h5>Messenger Bot</h5>
-                        <div class="messenger-header-buttons">
+                        <div className="messenger-header-buttons">
                             <Tooltip title="More options" placement="top">
                                 <button onClick={handleToggle} ref={anchorRef} aria-controls={openMenu ? 'menu-list-grow' : undefined} aria-haspopup="true">
                                     <SvgIcon component={MoreHoriz} />
@@ -139,7 +139,7 @@ function MessegerBot() {
 
                 
                 <div className="messenger-icon" onClick={openChatToggle}>
-                    <i class="fab fa-facebook-messenger fa-3x"></i>
+                    <i className="fab fa-facebook-messenger fa-3x"></i>
                 </div>
             </div>
             </ClickAwayListener>
