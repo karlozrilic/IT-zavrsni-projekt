@@ -10,7 +10,6 @@ function App() {
 				<Navigation />
 				<Route path="/" exact={true} component={Home} />
     		</Router>
-			<MessegerBot />
 		</>
   	);
 }

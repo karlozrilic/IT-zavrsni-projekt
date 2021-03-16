@@ -14,7 +14,7 @@ function Navigation() {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {links.map((el, key) => 
                             <li className="nav-item" key={key}>
-                                {el.path == location.pathname ?
+                                {el.path === location.pathname ?
                                     <a className="nav-link active" aria-current="page" href={el.path}>{el.text}</a>
                                 :
                                     <a className="nav-link" href={el.path}>{el.text}</a>
