@@ -1,5 +1,5 @@
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.w3schools.com/howto/photographer.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/home_banner.jpg);
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,15 +12,17 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
-        button {
+        a {
             border: none;
             outline: 0;
             display: inline-block;
+            margin-top: 20px;
             padding: 10px 25px;
             color: black;
             background-color: #dddddd;
             text-align: center;
             cursor: pointer;
+            text-decoration: none;
             &:hover {
                 background-color: #555555;
                 color: white;

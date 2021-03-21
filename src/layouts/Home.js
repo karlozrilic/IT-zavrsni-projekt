@@ -1,30 +1,28 @@
-import logo from '../logo.svg';
+import CustomCard from "../components/CustomCard";
+import { links } from "../components/links";
 
 function Home() {
     return (
         <>
             <div className="hero-image">
                 <div className="hero-text">
-                    <h1>I am John Doe</h1>
-                    <p>And I'm a developer</p>
-                    <button>Button</button>
+                    <h1>Live as a digital nomad in Zadar</h1>
+                    <p>Neki inspiracijski tekst</p>
+                    <a href="#home">Go</a>
                 </div>
             </div>
-            <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
-                </header>
+            <div className="home-wrapper">
+                <div className="max-width home-content" id="home">
+                    {links.map((element, key) =>
+                    <>
+                        {key % 2 == 0 ? 
+                            <CustomCard title={element.text} link={element.path} textInfo={element.info} image={require(`../images/${element.image}`).default} />
+                        :
+                            <CustomCard right={true} title={element.text} link={element.path} textInfo={element.info} image={require(`../images/${element.image}`).default} />
+                        }
+                    </>
+                    )}
+                </div>
             </div>
         </>
     )
