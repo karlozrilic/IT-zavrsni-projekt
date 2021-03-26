@@ -4,7 +4,7 @@ import { links } from "../components/links";
 function Home() {
     return (
         <>
-            <div className="hero-image">
+            <div className="hero-image home">
                 <div className="hero-text">
                     <h1>Live as a digital nomad in Zadar</h1>
                     <p>Neki inspiracijski tekst</p>
