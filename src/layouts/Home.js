@@ -11,7 +11,7 @@ function Home() {
                     <a href="#home">Go</a>
                 </div>
             </div>
-            <div className="home-wrapper">
+            <div className="content-wrapper">
                 <div className="max-width home-content" id="home">
                     {links.map((element, key) =>
                     <>
