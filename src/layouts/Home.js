@@ -15,7 +15,7 @@ function Home() {
                 <div className="max-width home-content" id="home">
                     {links.map((element, key) =>
                     <>
-                        {key % 2 == 0 ? 
+                        {key % 2 === 0 ? 
                             <CustomCard title={element.text} link={element.path} textInfo={element.info} image={require(`../images/${element.image}`).default} />
                         :
                             <CustomCard right={true} title={element.text} link={element.path} textInfo={element.info} image={require(`../images/${element.image}`).default} />

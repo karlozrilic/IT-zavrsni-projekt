@@ -16,13 +16,13 @@ function CustomCard({right, title, textInfo, image, link}) {
                     </div>
                 </div>
                 <div className="custom-card-image">
-                    <img src={image} alt="Card image" />
+                    <img src={image} alt="Card" />
                 </div>
             </>
             :
             <>
                 <div className="custom-card-image">
-                    <img src={image} alt="Card image" />
+                    <img src={image} alt="Card" />
                 </div>
                 <div className="custom-card-info">
                     <div className="custom-card-text">
