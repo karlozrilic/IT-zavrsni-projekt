@@ -128,7 +128,35 @@ function VisaInfo() {
                         </blockquote>
                         <p>
                             That is all of it. If you think that seems a little skimpy, you would not be wrong. Let’s now move on 
-                            to the next section where we address open questions.
+                            to the <a href="#open-questions">next section</a> where we address open questions.
+                        </p>
+                    </section>
+
+                    <section id="open-questions">
+                        <h3>Open questions about the digital nomad residence permit in Croatia</h3>
+                        <p>Thankfully, most of our questions have been answered. This is what’s left.</p>
+                        <h4>#1 How many times can you apply for this permit?</h4>
+                        <p>
+                            This is something that is not defined in the law, which means it is up to the ministry to 
+                            decide on their own. The assumption is that this basis for residence will be treated just like the 
+                            permits based on prepayment of rent, volunteering and ownership of real estate.
+                        </p>
+                        <p>
+                            In practice, MUP is limiting the number of times you can apply for residence based on prepayment 
+                            of rent and volunteering to 2 consecutive periods. Yet, for ownership of real estate, MUP is (in practice) 
+                            allowing some people to apply repeatedly with no limit.
+                        </p>
+                        <p>
+                            On <a href="https://mup.gov.hr/uzg-covid/english/286212">MUP’s web site</a>, they say that the digital nomad permit cannot be extended, 
+                            but it also says you must wait 6 months before you can apply for it again. Perhaps by “extended”, 
+                            they mean extend the existing permit to stay continuously past 1 year. That would make sense based on 
+                            their previous practices.
+                        </p>
+                        <p>
+                            We won’t know how many times you can apply for this permit until at least the end of 2021, at the earliest. 
+                            Most likely, we won’t know until 2022. For us to find out how MUP will handle this, we have to wait until 
+                            the first people who got residence based on being a digital nomad in 2021 try to apply for this permit a 
+                            second time. This won’t be defined in the law. It will be at the discretion of MUP.
                         </p>
                     </section>
                 </div>
