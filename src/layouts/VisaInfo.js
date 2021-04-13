@@ -650,8 +650,8 @@ function VisaInfo() {
                         <p>
                             For example, the United States of America doesn’t care where you live in the world. They require that you report 
                             your income annually, regardless of your location. You may also need to file an FBAR annually, which is 
-                            a fun privacy-violating form just for US expats living abroad. Make sure you 
-                            <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">know 
+                            a fun privacy-violating form just for US expats living abroad. Make sure 
+                            you <a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">know 
                             what an FBAR is and if you need to file one</a> because the penalties for not doing so involve prison sentences.
                         </p>
                         <p>
