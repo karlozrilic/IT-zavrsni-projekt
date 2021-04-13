@@ -8,7 +8,7 @@ function Footer() {
                     <a href="http://m.me/104533935045642" target="_blank" rel="noreferrer" className="social-icon messenger">
                         <i className="icon fab fa-facebook-messenger fa-inverse"></i>
                     </a>
-                    <a href="https://wa.me/0955127131?text=Send%20!commands%20for%20list%20of%20commands" target="_blank" rel="noreferrer" className="social-icon whatsapp">
+                    <a href="#" /*href="https://wa.me/0955127131?text=Send%20!commands%20for%20list%20of%20commands"*/ target="_blank" rel="noreferrer" className="social-icon whatsapp">
                         <i className="icon fab fa-whatsapp"></i>
                     </a>
                 </div>
