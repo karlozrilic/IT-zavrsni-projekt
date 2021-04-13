@@ -315,7 +315,7 @@ function VisaInfo() {
                         <p>
                             Proof of purpose is a document that proves that you are a digital nomad. This refers to work contract or 
                             other document proving that you perform work through “communication technology” for a foreign 
-                            employer or your own company registered outside of Croatia).
+                            employer or your own company registered outside of Croatia.
                         </p>
                         <p>
                             The ministry has defined exactly what you need to provide to show this. Keep in mind that every remote 
