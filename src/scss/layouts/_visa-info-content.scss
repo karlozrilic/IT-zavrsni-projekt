@@ -9,6 +9,11 @@
             border-left: 7px solid blue;
             font-style: italic;
             padding: 10px 25px;
+            &.no-border {
+                font-style: normal;
+                border: none;
+                padding-left: 40px;
+            }
         }
         h4 {
             color: #626262;
