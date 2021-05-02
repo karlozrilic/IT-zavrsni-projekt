@@ -72,7 +72,9 @@
       theme_color="#20cef5">
     </div>
     <script>
-      $('html, body').removeAttr('style')
+      $(document).load(() => {
+        $('html, body').removeAttr('style');
+      });
     </script>
   </body>
 </html>
