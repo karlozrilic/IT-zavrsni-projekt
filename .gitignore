@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+/messenger-bot
+
 # production
 /build
 
