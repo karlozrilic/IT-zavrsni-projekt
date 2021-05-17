@@ -9,7 +9,7 @@ function VisaInfo() {
                 </div>
             </div>
             <div className="content-wrapper">
-                <div className="max-width visa-info-content" id="visa-info">
+                <div className="max-width content" id="visa-info">
 
                     <section>
                         <h2>How to apply for the digital nomad residence permit in Croatia</h2>
@@ -58,7 +58,7 @@ function VisaInfo() {
                         </p>
                     </section>
 
-                    <section id="law-of-foreigners" className="anchor">
+                    <section id="law-of-foreigners">
                         <h3>What the new Law on Foreigners says about “digital nomads”</h3>
                         <p>
                             The law that regulates the stay of foreigners is called “Zakon o strancima” in 
