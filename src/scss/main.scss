@@ -20,6 +20,9 @@
     scroll-padding-top: 60px;
 }
 
+// Chrome auto scroll to bottom bug fix
+.fb_dialog, .fb_reset {position: fixed !important;z-index: 10000 !important;}
+
 .content-wrapper {
     width: 100%;
     height: 100%;
