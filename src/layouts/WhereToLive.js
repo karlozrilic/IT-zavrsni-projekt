@@ -1,3 +1,6 @@
+import CustomCard from "../components/CustomCard";
+import { realEstateAgency } from "../components/real-estate-agency.json";
+
 function WhereToLive() {
     return (
         <>
@@ -58,6 +61,11 @@ function WhereToLive() {
                             on the characteristics of each apartment, so these prices should be taken only as an orientation 
                             on the current situation when buying or selling an apartment in Zadar.
                         </p>
+                    </section>
+                    <section class="google-maps-iframes">
+                        {realEstateAgency.map((element) => 
+                            <iframe class="google-maps-iframe" src={element.link}></iframe>
+                        )}
                     </section>
                 </div>
             </div>

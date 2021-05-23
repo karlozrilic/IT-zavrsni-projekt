@@ -1,0 +1,10 @@
+.google-maps-iframes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .google-maps-iframe {
+        padding: 10px;
+        width: 48%;
+        height: 300px;
+    }
+}

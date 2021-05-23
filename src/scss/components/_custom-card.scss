@@ -31,6 +31,12 @@
                 height: 100%;
             }
         }
+        &.google-maps-only {
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
     }
     .custom-card-info {
         width: 50%;

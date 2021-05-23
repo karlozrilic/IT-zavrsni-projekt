@@ -1,11 +1,11 @@
 function Contacts() {
     return (
         <>
-            <div className="hero-image contacts">
+            <div className="hero-image events">
                 <div className="hero-text">
-                    <h1>Useful contacts</h1>
+                    <h1>Events</h1>
                     <p>Neki inspiracijski tekst</p>
-                    <a href="#home">Go</a>
+                    <a href="#events">Go</a>
                 </div>
             </div>
         </>
