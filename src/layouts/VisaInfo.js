@@ -1,9 +1,16 @@
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Visa informations';
+
 function VisaInfo() {
     return (
         <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
             <div className="hero-image visa-info">
                 <div className="hero-text">
-                    <h1>Visa informations</h1>
+                    <h1>{ TITLE }</h1>
                     <p>Here you can find all necessary information on how to get visa</p>
                     <a href="#visa-info">Go</a>
                 </div>

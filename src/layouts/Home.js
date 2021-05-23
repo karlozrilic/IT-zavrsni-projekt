@@ -1,12 +1,18 @@
 import CustomCard from "../components/CustomCard";
 import { links } from "../components/links";
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Live as a digital nomad in Zadar';
 
 function Home() {
     return (
         <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
             <div className="hero-image home">
                 <div className="hero-text">
-                    <h1>Live as a digital nomad in Zadar</h1>
+                    <h1>{ TITLE }</h1>
                     <p>Neki inspiracijski tekst</p>
                     <a href="#home">Go</a>
                 </div>

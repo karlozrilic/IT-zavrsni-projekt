@@ -1,14 +1,20 @@
 import CustomCard from "../components/CustomCard";
 import { vrtici } from "../components/vrtici";
 import { skole } from "../components/osnovneSkole";
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Familly';
 
 function Familly() {
 
     return (
         <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
             <div className="hero-image familly">
                 <div className="hero-text">
-                    <h1>Familly</h1>
+                    <h1>{ TITLE }</h1>
                     <p>Here you can find all necessary information for your familly</p>
                     <a href="#familly-info">Go</a>
                 </div>

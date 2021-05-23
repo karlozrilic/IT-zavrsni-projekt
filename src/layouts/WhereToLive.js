@@ -1,12 +1,17 @@
-import CustomCard from "../components/CustomCard";
 import { realEstateAgency } from "../components/real-estate-agency.json";
+import { Helmet } from 'react-helmet'
+
+const TITLE = 'Where to live?';
 
 function WhereToLive() {
     return (
         <>
+            <Helmet>
+                <title>{ TITLE }</title>
+            </Helmet>
             <div className="hero-image where-to-live">
                 <div className="hero-text">
-                    <h1>Where to live?</h1>
+                    <h1>{ TITLE }</h1>
                     <p>Neki inspiracijski tekst</p>
                     <a href="#where-to-live">Go</a>
                 </div>

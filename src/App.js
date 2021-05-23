@@ -6,12 +6,12 @@ import Home from "./layouts/Home";
 import VisaInfo from './layouts/VisaInfo';
 import Familly from './layouts/Familly';
 import WhereToLive from './layouts/WhereToLive';
-import Contacts from './layouts/Contacts';
+import Events from './layouts/Events';
 import CityAndSurroundings from './layouts/CityAndSurroundings';
 
 import { links } from "./components/links";
 
-const listOfComponents = [VisaInfo, Familly, WhereToLive, Contacts, CityAndSurroundings];
+const listOfComponents = [VisaInfo, Familly, WhereToLive, Events, CityAndSurroundings];
 
 function App() {
   	return (
