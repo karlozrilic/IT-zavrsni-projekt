@@ -6,6 +6,11 @@
     flex-direction: row;
     align-items: center;
     background-color: white;
+    &.middle-text {
+        .custom-card-info {
+            justify-content: center;
+        }
+    }
     .custom-card-image {
         width: 50%;
         height: 100%;

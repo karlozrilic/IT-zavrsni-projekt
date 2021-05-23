@@ -1,4 +1,4 @@
-function CustomCard({right, title, textInfo, image, link, googleMapsLink, goOutside}) {
+function CustomCard({customClass, right, title, textInfo, image, link, googleMapsLink, goOutside}) {
     console.log(image)
 
     function truncate(str) {
@@ -6,7 +6,7 @@ function CustomCard({right, title, textInfo, image, link, googleMapsLink, goOuts
     }
 
     return (
-        <div className="custom-card">
+        <div className={customClass ? "custom-card "+customClass : "custom-card"}>
             {right ?
             <>
                 <div className="custom-card-info">
@@ -15,7 +15,7 @@ function CustomCard({right, title, textInfo, image, link, googleMapsLink, goOuts
                         <p>{truncate(textInfo)}</p>
                     </div>
                     <div className="custom-card-button-right">
-                        <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>
+                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
                 {googleMapsLink ?
@@ -47,7 +47,7 @@ function CustomCard({right, title, textInfo, image, link, googleMapsLink, goOuts
                         <p>{truncate(textInfo)}</p>
                     </div>
                     <div className="custom-card-button-left">
-                        <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>
+                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
             </>
