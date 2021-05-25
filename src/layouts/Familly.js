@@ -1,6 +1,6 @@
 import CustomCard from "../components/CustomCard";
-import { vrtici } from "../components/vrtici";
-import { skole } from "../components/osnovneSkole";
+import { vrtici } from "../json/vrtici";
+import { skole } from "../json/osnovneSkole";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Familly';

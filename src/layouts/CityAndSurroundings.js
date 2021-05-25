@@ -1,5 +1,5 @@
 import CustomCard from "../components/CustomCard";
-import { cityAndSurroundings } from "../components/city-and-surroundings.json";
+import { cityAndSurroundings } from "../json/city-and-surroundings";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Meet the city and its surroundings';

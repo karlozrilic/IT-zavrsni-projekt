@@ -9,7 +9,7 @@ import WhereToLive from './layouts/WhereToLive';
 import Events from './layouts/Events';
 import CityAndSurroundings from './layouts/CityAndSurroundings';
 
-import { links } from "./components/links";
+import { links } from "./json/links";
 
 const listOfComponents = [VisaInfo, Familly, WhereToLive, Events, CityAndSurroundings];
 

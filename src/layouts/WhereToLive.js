@@ -1,4 +1,4 @@
-import { realEstateAgency } from "../components/real-estate-agency.json";
+import { realEstateAgency } from "../json/real-estate-agency";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Where to live?';

@@ -1,5 +1,4 @@
 function CustomCard({customClass, right, title, smallText, textInfo, image, link, googleMapsLink, goOutside}) {
-    console.log(image)
 
     function truncate(str) {
         return str.length > 600 ? str.substring(0, 597) + "..." : str;

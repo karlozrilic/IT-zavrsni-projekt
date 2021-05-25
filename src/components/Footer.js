@@ -1,4 +1,4 @@
-import { links } from "./links";
+import { links } from "../json/links";
 
 function Footer() {
     return (

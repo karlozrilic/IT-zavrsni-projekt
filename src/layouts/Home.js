@@ -1,5 +1,5 @@
 import CustomCard from "../components/CustomCard";
-import { links } from "../components/links";
+import { links } from "../json/links";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Live as a digital nomad in Zadar';
