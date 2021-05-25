@@ -46,9 +46,17 @@
         flex-direction: column;
         justify-content: space-between;
         .custom-card-text {
-            .custom-card-title {
-                font-weight: bold;
+            .title-wrapper {
+                display: flex;
+                align-items: center;
                 padding-bottom: 15px;
+                .custom-card-title {
+                    font-weight: bold;
+                }
+                .small-text {
+                    color: grey;
+                    padding-left: 20px;
+                }
             }
         }
         .custom-card-button-right {

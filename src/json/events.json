@@ -1,0 +1,39 @@
+{
+    "events": [
+        {
+            "title": "Event #1",
+            "date": "21. 5. 2021.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat venenatis congue. Duis leo libero, aliquet non enim sed, malesuada euismod justo. Nulla condimentum tempus tortor. Aliquam id finibus urna, a aliquet justo. Aliquam suscipit placerat elit et dignissim. Aenean euismod, lorem pharetra maximus efficitur, arcu nisi vehicula nisi, ac cursus turpis ex at odio. In mollis, ex non dignissim pharetra, orci lorem congue nibh, vel elementum dui quam id tortor. Vestibulum maximus sem a sagittis imperdiet. Nullam condimentum dui nunc, ut porta lectus pharetra sed. Donec mauris dui, ultrices sit amet hendrerit at, pharetra a justo. Vestibulum hendrerit laoreet posuere. Aliquam erat volutpat. Mauris vitae eleifend ante. Aenean eleifend, felis ut maximus ultrices, ante tellus vulputate risus, sit amet suscipit justo elit ultricies urna.",
+            "image": "https://via.placeholder.com/1050",
+            "link": "#"
+        },
+        {
+            "title": "Event #2",
+            "date": "21. 5. 2021.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat venenatis congue. Duis leo libero, aliquet non enim sed, malesuada euismod justo. Nulla condimentum tempus tortor. Aliquam id finibus urna, a aliquet justo. Aliquam suscipit placerat elit et dignissim. Aenean euismod, lorem pharetra maximus efficitur, arcu nisi vehicula nisi, ac cursus turpis ex at odio. In mollis, ex non dignissim pharetra, orci lorem congue nibh, vel elementum dui quam id tortor. Vestibulum maximus sem a sagittis imperdiet. Nullam condimentum dui nunc, ut porta lectus pharetra sed. Donec mauris dui, ultrices sit amet hendrerit at, pharetra a justo. Vestibulum hendrerit laoreet posuere. Aliquam erat volutpat. Mauris vitae eleifend ante. Aenean eleifend, felis ut maximus ultrices, ante tellus vulputate risus, sit amet suscipit justo elit ultricies urna.",
+            "image": "https://via.placeholder.com/1050",
+            "link": "#"
+        },
+        {
+            "title": "Event #3",
+            "date": "21. 5. 2021.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat venenatis congue. Duis leo libero, aliquet non enim sed, malesuada euismod justo. Nulla condimentum tempus tortor. Aliquam id finibus urna, a aliquet justo. Aliquam suscipit placerat elit et dignissim. Aenean euismod, lorem pharetra maximus efficitur, arcu nisi vehicula nisi, ac cursus turpis ex at odio. In mollis, ex non dignissim pharetra, orci lorem congue nibh, vel elementum dui quam id tortor. Vestibulum maximus sem a sagittis imperdiet. Nullam condimentum dui nunc, ut porta lectus pharetra sed. Donec mauris dui, ultrices sit amet hendrerit at, pharetra a justo. Vestibulum hendrerit laoreet posuere. Aliquam erat volutpat. Mauris vitae eleifend ante. Aenean eleifend, felis ut maximus ultrices, ante tellus vulputate risus, sit amet suscipit justo elit ultricies urna.",
+            "image": "https://via.placeholder.com/1050",
+            "link": "#"
+        },
+        {
+            "title": "Event #4",
+            "date": "21. 5. 2021.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat venenatis congue. Duis leo libero, aliquet non enim sed, malesuada euismod justo. Nulla condimentum tempus tortor. Aliquam id finibus urna, a aliquet justo. Aliquam suscipit placerat elit et dignissim. Aenean euismod, lorem pharetra maximus efficitur, arcu nisi vehicula nisi, ac cursus turpis ex at odio. In mollis, ex non dignissim pharetra, orci lorem congue nibh, vel elementum dui quam id tortor. Vestibulum maximus sem a sagittis imperdiet. Nullam condimentum dui nunc, ut porta lectus pharetra sed. Donec mauris dui, ultrices sit amet hendrerit at, pharetra a justo. Vestibulum hendrerit laoreet posuere. Aliquam erat volutpat. Mauris vitae eleifend ante. Aenean eleifend, felis ut maximus ultrices, ante tellus vulputate risus, sit amet suscipit justo elit ultricies urna.",
+            "image": "https://via.placeholder.com/1050",
+            "link": "#"
+        },
+        {
+            "title": "Event #5",
+            "date": "21. 5. 2021.",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat venenatis congue. Duis leo libero, aliquet non enim sed, malesuada euismod justo. Nulla condimentum tempus tortor. Aliquam id finibus urna, a aliquet justo. Aliquam suscipit placerat elit et dignissim. Aenean euismod, lorem pharetra maximus efficitur, arcu nisi vehicula nisi, ac cursus turpis ex at odio. In mollis, ex non dignissim pharetra, orci lorem congue nibh, vel elementum dui quam id tortor. Vestibulum maximus sem a sagittis imperdiet. Nullam condimentum dui nunc, ut porta lectus pharetra sed. Donec mauris dui, ultrices sit amet hendrerit at, pharetra a justo. Vestibulum hendrerit laoreet posuere. Aliquam erat volutpat. Mauris vitae eleifend ante. Aenean eleifend, felis ut maximus ultrices, ante tellus vulputate risus, sit amet suscipit justo elit ultricies urna.",
+            "image": "https://via.placeholder.com/1050",
+            "link": "#"
+        }
+    ]
+}

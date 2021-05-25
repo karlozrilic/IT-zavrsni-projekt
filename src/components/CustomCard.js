@@ -1,4 +1,4 @@
-function CustomCard({customClass, right, title, textInfo, image, link, googleMapsLink, goOutside}) {
+function CustomCard({customClass, right, title, smallText, textInfo, image, link, googleMapsLink, goOutside}) {
     console.log(image)
 
     function truncate(str) {
@@ -11,7 +11,14 @@ function CustomCard({customClass, right, title, textInfo, image, link, googleMap
             <>
                 <div className="custom-card-info">
                     <div className="custom-card-text">
-                        <h3 className="custom-card-title">{title}</h3>
+                        <div className="title-wrapper">
+                            <h3 className="custom-card-title">{title}</h3>
+                            {smallText ? 
+                                <h6 className="small-text">{smallText}</h6>
+                            :
+                                ""
+                            }
+                        </div>
                         {textInfo ?
                             <p>{truncate(textInfo)}</p>
                         :
@@ -57,7 +64,14 @@ function CustomCard({customClass, right, title, textInfo, image, link, googleMap
                 }
                 <div className="custom-card-info">
                     <div className="custom-card-text">
-                        <h3 className="custom-card-title">{title}</h3>
+                        <div className="title-wrapper">
+                            <h3 className="custom-card-title">{title}</h3>
+                            {smallText ? 
+                                <h6 className="small-text">{smallText}</h6>
+                            :
+                                ""
+                            }
+                        </div>
                         {textInfo ?
                             <p>{truncate(textInfo)}</p>
                         :

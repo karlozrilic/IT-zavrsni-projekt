@@ -14,7 +14,7 @@ function Home() {
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
                     <p>Neki inspiracijski tekst</p>
-                    <a href="#home">Go</a>
+                    <a href="#home" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">

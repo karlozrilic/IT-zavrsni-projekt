@@ -16,7 +16,7 @@ function Familly() {
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
                     <p>Here you can find all necessary information for your familly</p>
-                    <a href="#familly-info">Go</a>
+                    <a href="#familly-info" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">
