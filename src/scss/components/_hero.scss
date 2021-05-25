@@ -34,9 +34,6 @@
             padding: 10px 25px;
             backdrop-filter: blur(5px);
             font-weight: bold;
-            &::after {
-                background-color: black;
-            }
             &:hover {
                 color: black;
             }

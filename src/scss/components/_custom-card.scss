@@ -59,17 +59,22 @@
                 }
             }
         }
-        .custom-card-button-right {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-        }
-        .custom-card-button-left {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
+        .card-button {
+            &.custom-card-button-right {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+            }
+            &.custom-card-button-left {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+            a {
+                color: black;
+            }
         }
     }
 }

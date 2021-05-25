@@ -25,8 +25,8 @@ function CustomCard({customClass, right, title, smallText, textInfo, image, link
                             ""
                         } 
                     </div>
-                    <div className="custom-card-button-right">
-                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
+                    <div className="card-button custom-card-button-right">
+                        {link && <a role="button" className="btn btn-outline-warning" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
                 {googleMapsLink && image ?
@@ -78,8 +78,8 @@ function CustomCard({customClass, right, title, smallText, textInfo, image, link
                             ""
                         }
                     </div>
-                    <div className="custom-card-button-left">
-                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
+                    <div className="card-button custom-card-button-left">
+                        {link && <a role="button" className="btn btn-outline-warning" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
             </>
