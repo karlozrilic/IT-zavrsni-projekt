@@ -21,13 +21,13 @@ function Family() {
             </div>
             <div className="content-wrapper">
                 <div className="max-width content" id="family-info" style={{ whiteSpace: 'pre-wrap' }}>
-                    <h2 id="vrtici">Vrtići</h2>
+                    <h2 id="vrtici">Kindergartens</h2>
                     {vrtici.map((element, key) => 
                         <>
                             <CustomCard right={false} title={element.name} textInfo={element.about} image={element.imageLink} link={element.link} googleMapsLink={element.googleMap} goOutside={true} />
                         </>
                     )}
-                    <h2 id="osnovne-skole">Osnovne škole</h2>
+                    <h2 id="osnovne-skole">Elementary schools</h2>
                     {skole.map((element, key) => 
                         <>
                             <CustomCard right={false} title={element.name} textInfo={element.about} image={element.imageLink} link={element.link} googleMapsLink={element.googleMap} goOutside={true} />
