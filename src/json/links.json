@@ -21,13 +21,13 @@
         {
             "text": "Events",
             "path": "/events",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mollis neque, nec accumsan mauris sodales quis. Quisque vehicula at felis et feugiat. Integer ullamcorper et orci ac volutpat. Aenean a ante non lectus molestie scelerisque vitae sed mauris.\nNulla sollicitudin molestie diam eget varius. Nam ullamcorper, felis eu pulvinar gravida, tortor odio fermentum magna, in luctus nulla neque ut urna. Integer in facilisis lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vitae facilisis dolor, nec interdum diam.",
+            "info": "Here you can find informations about different events",
             "image": "events.jpg"
         },
         {
             "text": "Meet the city and its surroundings",
             "path": "/meet-the-city",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat mollis neque, nec accumsan mauris sodales quis. Quisque vehicula at felis et feugiat. Integer ullamcorper et orci ac volutpat. Aenean a ante non lectus molestie scelerisque vitae sed mauris.\nNulla sollicitudin molestie diam eget varius. Nam ullamcorper, felis eu pulvinar gravida, tortor odio fermentum magna, in luctus nulla neque ut urna. Integer in facilisis lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer vitae facilisis dolor, nec interdum diam.",
+            "info": "Here you can find list of interesting places to visit",
             "image": "city-and-surroundings-image.jpg"
         }
     ]
