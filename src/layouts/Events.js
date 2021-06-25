@@ -13,7 +13,7 @@ function Events() {
             <div className="hero-image events">
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
-                    <p>Here ypu can find iformations about different events</p>
+                    <p>Here you can find informations about different events</p>
                     <a href="#events" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
