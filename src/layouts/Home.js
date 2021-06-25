@@ -13,7 +13,6 @@ function Home() {
             <div className="hero-image home">
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
-                    <p>Neki inspiracijski tekst</p>
                     <a href="#home" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
