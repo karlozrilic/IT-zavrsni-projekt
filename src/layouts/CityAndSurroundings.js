@@ -1,5 +1,5 @@
 import CustomCard from "../components/CustomCard";
-import { cityAndSurroundings } from "../components/city-and-surroundings.json";
+import { cityAndSurroundings } from "../json/city-and-surroundings";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Meet the city and its surroundings';
@@ -13,8 +13,8 @@ function CityAndSurroundings() {
             <div className="hero-image city-and-surroundings">
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
-                    <p>Neki inspiracijski tekst</p>
-                    <a href="#city-and-surroundings">Go</a>
+                    <p>Here you can find list of interesting places to visit</p>
+                    <a href="#city-and-surroundings" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">

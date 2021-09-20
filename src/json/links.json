@@ -1,0 +1,34 @@
+{
+    "links": [
+        {
+            "text": "Visa informations",
+            "path": "/visa-informations",
+            "info": "Croatia is officially offering temporary residence to digital nomads effective January 1, 2021. You may know this by its colloquially name – the “digital nomad visa”. The introduction of this permit adds a brand new option for non-EU nationals to live in Croatia long term.\nThe revised law that regulates the immigration of foreigners (and introduces this permit) became official when it was published in Narodne novine. Changes to the law are never official until they are published in Narodne novine.",
+            "image": "visa-image.jpg"
+        },
+        {
+            "text": "Family",
+            "path": "/family",
+            "info": "Here you can find all necessary information for your family",
+            "image": "family-image.jpg"
+        },
+        {
+            "text": "Where to live?",
+            "path": "/where-to-live",
+            "info": "Zadar is one of the three cities in which housing construction has recently taken an upward trajectory and is heading towards its peak, so it can be placed side by side with Zagreb and Split in terms of new housing construction. As the deficit of apartments has appeared in Zadar, especially the medium-sized ones that buyers are primarily looking for in order to solve housing issues, construction companies and investors have found the right city to invest. Namely, it turned out that there were not enough apartments in Zadar with an area of ​​50 m2 to 60 m2, and a new phase of construction of apartments of such an area began. Most new apartments are being built in Plovanija, Bili brig, Belafuža, Višnjik, Vitrenjak, Borik, Petrići and other locations.",
+            "image": "where-to-live-image.jpg"
+        },
+        {
+            "text": "Events",
+            "path": "/events",
+            "info": "Here you can find informations about different events",
+            "image": "events.jpg"
+        },
+        {
+            "text": "Meet the city and its surroundings",
+            "path": "/meet-the-city",
+            "info": "Here you can find list of interesting places to visit",
+            "image": "city-and-surroundings-image.jpg"
+        }
+    ]
+}

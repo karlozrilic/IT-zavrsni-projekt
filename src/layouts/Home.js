@@ -1,5 +1,5 @@
 import CustomCard from "../components/CustomCard";
-import { links } from "../components/links";
+import { links } from "../json/links";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Live as a digital nomad in Zadar';
@@ -13,8 +13,7 @@ function Home() {
             <div className="hero-image home">
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
-                    <p>Neki inspiracijski tekst</p>
-                    <a href="#home">Go</a>
+                    <a href="#home" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">

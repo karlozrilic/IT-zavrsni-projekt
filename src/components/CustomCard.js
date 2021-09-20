@@ -1,5 +1,4 @@
-function CustomCard({customClass, right, title, textInfo, image, link, googleMapsLink, goOutside}) {
-    console.log(image)
+function CustomCard({customClass, right, title, smallText, textInfo, image, link, googleMapsLink, goOutside}) {
 
     function truncate(str) {
         return str.length > 600 ? str.substring(0, 597) + "..." : str;
@@ -11,15 +10,22 @@ function CustomCard({customClass, right, title, textInfo, image, link, googleMap
             <>
                 <div className="custom-card-info">
                     <div className="custom-card-text">
-                        <h3 className="custom-card-title">{title}</h3>
+                        <div className="title-wrapper">
+                            <h3 className="custom-card-title">{title}</h3>
+                            {smallText ? 
+                                <h6 className="small-text">{smallText}</h6>
+                            :
+                                ""
+                            }
+                        </div>
                         {textInfo ?
                             <p>{truncate(textInfo)}</p>
                         :
                             ""
                         } 
                     </div>
-                    <div className="custom-card-button-right">
-                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
+                    <div className="card-button custom-card-button-right">
+                        {link && <a role="button" className="btn btn-outline-warning" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
                 {googleMapsLink && image ?
@@ -57,15 +63,22 @@ function CustomCard({customClass, right, title, textInfo, image, link, googleMap
                 }
                 <div className="custom-card-info">
                     <div className="custom-card-text">
-                        <h3 className="custom-card-title">{title}</h3>
+                        <div className="title-wrapper">
+                            <h3 className="custom-card-title">{title}</h3>
+                            {smallText ? 
+                                <h6 className="small-text">{smallText}</h6>
+                            :
+                                ""
+                            }
+                        </div>
                         {textInfo ?
                             <p>{truncate(textInfo)}</p>
                         :
                             ""
                         }
                     </div>
-                    <div className="custom-card-button-left">
-                        {link && <a role="button" className="btn btn-outline-primary" href={link} target={goOutside && "_blank"} >More</a>}
+                    <div className="card-button custom-card-button-left">
+                        {link && <a role="button" className="btn btn-outline-warning" href={link} target={goOutside && "_blank"} >More</a>}
                     </div>
                 </div>
             </>

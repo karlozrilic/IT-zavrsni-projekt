@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { links } from "./links";
+import { links } from "../json/links";
 
 function Navigation() {
     const location = useLocation();

@@ -1,4 +1,4 @@
-import { realEstateAgency } from "../components/real-estate-agency.json";
+import { realEstateAgency } from "../json/real-estate-agency";
 import { Helmet } from 'react-helmet'
 
 const TITLE = 'Where to live?';
@@ -12,8 +12,8 @@ function WhereToLive() {
             <div className="hero-image where-to-live">
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
-                    <p>Neki inspiracijski tekst</p>
-                    <a href="#where-to-live">Go</a>
+                    <p>Here you can find useful information about the accommodations Zadar has to offer</p>
+                    <a href="#where-to-live" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">

@@ -12,7 +12,7 @@ function VisaInfo() {
                 <div className="hero-text">
                     <h1>{ TITLE }</h1>
                     <p>Here you can find all necessary information on how to get visa</p>
-                    <a href="#visa-info">Go</a>
+                    <a href="#visa-info" class="btn btn-outline-warning">Go</a>
                 </div>
             </div>
             <div className="content-wrapper">

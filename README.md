@@ -1,3 +1,2 @@
-# Live versions
-* [Vercel-1](https://it-zavrsni-projekt.vercel.app/)
-* [Vercel-2](https://it-zavrsni-projekt-karlozrilic.vercel.app/)
+# Live version
+* [Vercel](https://live-as-a-digital-nomad-in-zadar.vercel.app/)
